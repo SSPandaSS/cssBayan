@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 320px;
+    height: 100vh;
+}
+
+.title {
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Accordion */
+
+.accordion {
+    display: flex;
+    flex-direction: column;
+}
+
+.accordion-item {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid rgb(151, 151, 151);
+}
+
+.item-trigger_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+
+p {
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.accordion-item_content {
+    align-self: center;
+}
