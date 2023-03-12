@@ -111,6 +111,7 @@ body {
 
     .accordion-item:hover > .accordion-item_trigger > .accordion-item_icon {
         display: block;
+        transform: rotate(45deg);
     }
 }
 
